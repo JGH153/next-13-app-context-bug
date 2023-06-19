@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import { NameContext } from "../name-provider";
 
-export default async function Context() {
+export default async function About() {
   const nameContext = useContext(NameContext);
 
   // console.log((React as any).version)
